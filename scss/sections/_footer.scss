@@ -1,0 +1,10 @@
+@use "../custom" as *;
+
+.custom-footer {
+  padding-top: 2rem;
+  padding-left: 5rem;
+
+  // padding-right: 5rem;
+
+  background-color: $primary;
+}

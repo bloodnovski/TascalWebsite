@@ -1,0 +1,80 @@
+// My Theme
+$blue-dark: #15263F;
+$blue-light: #4C7DF5;
+
+
+// White and gray colors
+// $white:    #fff !default;
+$white:    #E1F1FF ;
+$gray-100: #f8f9fa !default;
+$gray-200: #e9ecef !default;
+$gray-300: #dee2e6 !default;
+$gray-400: #ced4da !default;
+$gray-500: #adb5bd !default;
+$gray-600: #6c757d !default;
+$gray-700: #495057 !default;
+$gray-800: #343a40 !default;
+$gray-900: #212529 !default;
+$black:    #000 !default;
+// Colors
+$blue:    #0d6efd !default;
+$indigo:  #6610f2 !default;
+$purple:  #6f42c1 !default;
+$pink:    #d63384 !default;
+$red:     #dc3545 !default;
+$orange:  #fd7e14 !default;
+$yellow:  #ffc107 !default;
+$green:   #198754 !default;
+$teal:    #20c997 !default;
+$cyan:    #0dcaf0 !default;
+//  Primaries
+// $primary:       $blue-dark !default;
+// $secondary:     $blue-light !default;
+// $success:       $green !default;
+// $info:          $cyan !default;
+// $warning:       $yellow !default;
+// $danger:        $red !default;
+// $light:         $gray-500 !default;
+// $dark:          $gray-900 !default;
+
+// 
+// 
+// 
+// 
+// 
+// 
+
+$light     : #cdd1c4;
+$dark      : #302a29;
+$primary   : #14253e;
+$secondary : #2e9bf2;
+$info      : #9bcff8;
+$success   : #15ac63;
+$warning   : #e6cd14;
+$danger    : #f61508;
+
+$accent-color : #febe66;
+
+
+
+
+
+
+
+
+
+$accordion-icon-color: $primary;
+$accordion-icon-active-color: $secondary;
+
+
+$accordion-button-icon:         url('data:image/svg+xml,<svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="#{$accordion-icon-color}" class="bi bi-plus-circle" viewBox="0 0 16 16"><path d="M8 15A7 7 0 1 1 8 1a7 7 0 0 1 0 14zm0 1A8 8 0 1 0 8 0a8 8 0 0 0 0 16z"/><path d="M8 4a.5.5 0 0 1 .5.5v3h3a.5.5 0 0 1 0 1h-3v3a.5.5 0 0 1-1 0v-3h-3a.5.5 0 0 1 0-1h3v-3A.5.5 0 0 1 8 4z"/></svg>');
+$accordion-button-active-icon:  url('data:image/svg+xml,<svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="#{$accordion-icon-active-color}" class="bi bi-dash-circle" viewBox="0 0 16 16"><path d="M8 15A7 7 0 1 1 8 1a7 7 0 0 1 0 14zm0 1A8 8 0 1 0 8 0a8 8 0 0 0 0 16z"/><path d="M4 8a.5.5 0 0 1 .5-.5h7a.5.5 0 0 1 0 1h-7A.5.5 0 0 1 4 8z"/></svg>') ;
+$accordion-icon-width:                    1.875rem !default;
+
+
+
+
+
+@import "../node_modules/bootstrap/scss/bootstrap.scss";
+
+

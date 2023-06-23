@@ -1,60 +1,8 @@
 @use "../custom" as *;
 
-.sidebar-list-group-item{
-    background: transparent;
-    border: 0;
-    border-radius: .5rem;
-    padding-top: 0rem;
-    padding-bottom: 0rem;
-    margin-left: .5rem;
-    margin-top: 0rem;
-    margin-bottom: 0rem;
-    :hover{
-        border-radius: .25rem;
-        background-color: rgba($color: $primary, $alpha: .75) ;
-        color:$white;
-    }
-    a{
-        padding-top:    .25rem;
-        padding-bottom: .25rem;
-        padding-left:   .37rem;
-        padding-right:  .37rem;
-
-        font-size: small;
-        text-decoration: none;
-    }
-}
-
-.sidebar-list-group-item-selected{
-    background: transparent;
-    
-    padding-top: 0rem;
-    padding-bottom: 0rem;
-    margin-left: .5rem;
-    margin-top: 0rem;
-    margin-bottom: 0rem;
-    
-    a{
-        background-color: rgba($color: $primary, $alpha: .75) ;
-        border: 0;
-        border-radius: .25rem;
-        color: $white;
-        padding-top:    .25rem;
-        padding-bottom: .25rem;
-        padding-left:   .37rem;
-        padding-right:  .37rem;
-
-        font-size: small;
-        text-decoration: none;
-    }
-}
-
-.last{
-    margin-bottom:1rem;
-}
 
 
-.sidebar-list-header{
-    border:none;
-    font-weight: bold;
-}
+
+
+
+

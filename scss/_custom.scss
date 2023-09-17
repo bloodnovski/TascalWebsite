@@ -29,36 +29,29 @@ $teal:    #20c997 !default;
 $cyan:    #0dcaf0 !default;
 
 
-//  Primaries
-// $primary:       $blue-dark !default;
-// $secondary:     $blue-light !default;
-// $success:       $green !default;
-// $info:          $cyan !default;
-// $warning:       $yellow !default;
-// $danger:        $red !default;
-// $light:         $gray-500 !default;
-// $dark:          $gray-900 !default;
 
-// 
-// 
-// 
-// 
-// 
-// 
-
-$light     : #cdd1c4;
-$dark      : #302a29;
-$primary   : #14253e;
-$secondary : #2e9bf2;
-$info      : #9bcff8;
-$success   : #15ac63;
-$warning   : #e6cd14;
-$danger    : #f61508;
+// $light     : #cdd1c4;
+// $dark      : #302a29;
+// $primary   : #14253e;
+// $secondary : #2e9bf2;
+// $info      : #9bcff8;
+// $success   : #15ac63;
+// $warning   : #e6cd14;
+// $danger    : #f61508;
 
 $accent-color : #febe66;
 
 
+$white: #ffffff;
 
+$light:      #b6b3b6;
+$dark:       #10192f;
+$primary:    #14253e;
+$secondary:  #b9272b;
+$info:       #a5cbe3;
+$success:    #249f5e;
+$warning:    #e1c925;
+$danger:     #ef1b13;
 
 
 
@@ -73,7 +66,10 @@ $accordion-button-icon:         url('data:image/svg+xml,<svg xmlns="http://www.w
 $accordion-button-active-icon:  url('data:image/svg+xml,<svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="#{$accordion-icon-active-color}" class="bi bi-dash-circle" viewBox="0 0 16 16"><path d="M8 15A7 7 0 1 1 8 1a7 7 0 0 1 0 14zm0 1A8 8 0 1 0 8 0a8 8 0 0 0 0 16z"/><path d="M4 8a.5.5 0 0 1 .5-.5h7a.5.5 0 0 1 0 1h-7A.5.5 0 0 1 4 8z"/></svg>') ;
 $accordion-icon-width:                    1.875rem !default;
 
-
+$accordion-button-active-bg:              $primary;
+$accordion-button-active-color:           $white;
+$accordion-border-width: 2px;
+// $font-family-sans-serif:     "Montserrat";
 
 
 
